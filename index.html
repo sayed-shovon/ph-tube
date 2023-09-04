@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/9438c33c08.js" crossorigin="anonymous"></script>
+  <title>PH Tube</title>
+  <style>
+   .active ,.active:hover{
+      background-color: #FF1F3D;
+      color: white;
+    }
+  </style>
+</head>
+<body class="w-[90%] mx-auto">
+  <header>
+    <nav class="flex justify-between border-b py-4">
+<a href="#" class="text-3xl font-bold">
+  <i class="fa-solid fa-circle-play text-[#FF1F3D]"></i>
+  <span class="text-[#FF1F3D]">PH</span>
+  <span>Tube</span>
+</a>
+<button class="btn" id="sortByView">Sort by view</button>
+<a href="./blog.html" class="btn bg-[#FF1F3D] text-white">Blog</a>
+    </nav>
+  </header>
+  <main>
+    <div class="flex justify-center my-6" id="btnContainer">
+    </div>
+    <div class="flex flex-wrap justify-center" id="dataContainer">
+
+    </div>
+  </main>
+  <footer>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
